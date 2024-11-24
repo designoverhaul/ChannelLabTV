@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9398B3322CF0B01A00410582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9398B3312CF0B01A00410582 /* Assets.xcassets */; };
+		9398B33F2CF0B01A00410582 /* Channel_Lab_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398B33E2CF0B01A00410582 /* Channel_Lab_TVTests.swift */; };
+		9398B3492CF0B01A00410582 /* Channel_Lab_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398B3482CF0B01A00410582 /* Channel_Lab_TVUITests.swift */; };
+		9398B34B2CF0B01A00410582 /* Channel_Lab_TVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398B34A2CF0B01A00410582 /* Channel_Lab_TVUITestsLaunchTests.swift */; };
+		93D22A492CF3703D00A40888 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93D22A482CF3703D00A40888 /* GoogleService-Info.plist */; };
+		93D22A4B2CF3736900A40888 /* ChannelGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D22A4A2CF3736900A40888 /* ChannelGridView.swift */; };
+		93D22A4D2CF3737A00A40888 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D22A4C2CF3737A00A40888 /* ContentView.swift */; };
+		93D915B62CF2321B00EB49B6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 93D915B52CF2321B00EB49B6 /* FirebaseFirestore */; };
+		93D915B82CF363DA00EB49B6 /* Channel-Lab-TV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93D915B72CF363DA00EB49B6 /* Channel-Lab-TV-Info.plist */; };
+		93FA9D552CF2234B001C6EFC /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 93FA9D542CF2234B001C6EFC /* FirebaseCore */; };
+		93FA9D572CF2234B001C6EFC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 93FA9D562CF2234B001C6EFC /* FirebaseFirestore */; };
+		93FA9D5D2CF2274A001C6EFC /* Channel_Lab_TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA9D592CF2274A001C6EFC /* Channel_Lab_TVApp.swift */; };
+		93FA9D6A2CF227AB001C6EFC /* ChannelCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA9D642CF227AB001C6EFC /* ChannelCardView.swift */; };
+		93FA9D6B2CF227AB001C6EFC /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA9D5E2CF227AB001C6EFC /* Channel.swift */; };
+		93FA9D6C2CF227AB001C6EFC /* ChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA9D622CF227AB001C6EFC /* ChannelViewModel.swift */; };
+		93FA9D6D2CF227AB001C6EFC /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA9D602CF227AB001C6EFC /* FirebaseService.swift */; };
+		93FA9D6E2CF227AB001C6EFC /* ChannelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA9D662CF227AB001C6EFC /* ChannelDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9398B33B2CF0B01A00410582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9398B3222CF0B01900410582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9398B3292CF0B01900410582;
+			remoteInfo = "Channel Lab TV";
+		};
+		9398B3452CF0B01A00410582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9398B3222CF0B01900410582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9398B3292CF0B01900410582;
+			remoteInfo = "Channel Lab TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9398B32A2CF0B01900410582 /* Channel Lab TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Channel Lab TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9398B3312CF0B01A00410582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9398B33A2CF0B01A00410582 /* Channel Lab TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Channel Lab TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9398B33E2CF0B01A00410582 /* Channel_Lab_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel_Lab_TVTests.swift; sourceTree = "<group>"; };
+		9398B3442CF0B01A00410582 /* Channel Lab TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Channel Lab TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9398B3482CF0B01A00410582 /* Channel_Lab_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel_Lab_TVUITests.swift; sourceTree = "<group>"; };
+		9398B34A2CF0B01A00410582 /* Channel_Lab_TVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel_Lab_TVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93D22A482CF3703D00A40888 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93D22A4A2CF3736900A40888 /* ChannelGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelGridView.swift; sourceTree = "<group>"; };
+		93D22A4C2CF3737A00A40888 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93D915B72CF363DA00EB49B6 /* Channel-Lab-TV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Channel-Lab-TV-Info.plist"; sourceTree = "<group>"; };
+		93FA9D592CF2274A001C6EFC /* Channel_Lab_TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel_Lab_TVApp.swift; sourceTree = "<group>"; };
+		93FA9D5E2CF227AB001C6EFC /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		93FA9D602CF227AB001C6EFC /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		93FA9D622CF227AB001C6EFC /* ChannelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewModel.swift; sourceTree = "<group>"; };
+		93FA9D642CF227AB001C6EFC /* ChannelCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCardView.swift; sourceTree = "<group>"; };
+		93FA9D662CF227AB001C6EFC /* ChannelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9398B3272CF0B01900410582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FA9D552CF2234B001C6EFC /* FirebaseCore in Frameworks */,
+				93FA9D572CF2234B001C6EFC /* FirebaseFirestore in Frameworks */,
+				93D915B62CF2321B00EB49B6 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398B3372CF0B01A00410582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398B3412CF0B01A00410582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9398B3212CF0B01900410582 = {
+			isa = PBXGroup;
+			children = (
+				9398B32C2CF0B01900410582 /* Channel Lab TV */,
+				9398B33D2CF0B01A00410582 /* Channel Lab TVTests */,
+				9398B3472CF0B01A00410582 /* Channel Lab TVUITests */,
+				9398B32B2CF0B01900410582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9398B32B2CF0B01900410582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9398B32A2CF0B01900410582 /* Channel Lab TV.app */,
+				9398B33A2CF0B01A00410582 /* Channel Lab TVTests.xctest */,
+				9398B3442CF0B01A00410582 /* Channel Lab TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9398B32C2CF0B01900410582 /* Channel Lab TV */ = {
+			isa = PBXGroup;
+			children = (
+				9398B3312CF0B01A00410582 /* Assets.xcassets */,
+				93FA9D592CF2274A001C6EFC /* Channel_Lab_TVApp.swift */,
+				93D22A4C2CF3737A00A40888 /* ContentView.swift */,
+				93D22A482CF3703D00A40888 /* GoogleService-Info.plist */,
+				93D915B72CF363DA00EB49B6 /* Channel-Lab-TV-Info.plist */,
+				93FA9D6F2CF227E5001C6EFC /* Preview Content */,
+				93FA9D5F2CF227AB001C6EFC /* Models */,
+				93FA9D612CF227AB001C6EFC /* Services */,
+				93FA9D632CF227AB001C6EFC /* ViewModels */,
+				93FA9D682CF227AB001C6EFC /* Views */,
+			);
+			path = "Channel Lab TV";
+			sourceTree = "<group>";
+		};
+		9398B33D2CF0B01A00410582 /* Channel Lab TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				9398B33E2CF0B01A00410582 /* Channel_Lab_TVTests.swift */,
+			);
+			path = "Channel Lab TVTests";
+			sourceTree = "<group>";
+		};
+		9398B3472CF0B01A00410582 /* Channel Lab TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9398B3482CF0B01A00410582 /* Channel_Lab_TVUITests.swift */,
+				9398B34A2CF0B01A00410582 /* Channel_Lab_TVUITestsLaunchTests.swift */,
+			);
+			path = "Channel Lab TVUITests";
+			sourceTree = "<group>";
+		};
+		93FA9D5F2CF227AB001C6EFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93FA9D5E2CF227AB001C6EFC /* Channel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93FA9D612CF227AB001C6EFC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				93FA9D602CF227AB001C6EFC /* FirebaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		93FA9D632CF227AB001C6EFC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93FA9D622CF227AB001C6EFC /* ChannelViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		93FA9D652CF227AB001C6EFC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				93FA9D642CF227AB001C6EFC /* ChannelCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		93FA9D682CF227AB001C6EFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93FA9D652CF227AB001C6EFC /* Components */,
+				93FA9D662CF227AB001C6EFC /* ChannelDetailView.swift */,
+				93D22A4A2CF3736900A40888 /* ChannelGridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93FA9D6F2CF227E5001C6EFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9398B3292CF0B01900410582 /* Channel Lab TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9398B34E2CF0B01A00410582 /* Build configuration list for PBXNativeTarget "Channel Lab TV" */;
+			buildPhases = (
+				9398B3262CF0B01900410582 /* Sources */,
+				9398B3272CF0B01900410582 /* Frameworks */,
+				9398B3282CF0B01900410582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Channel Lab TV";
+			productName = "Channel Lab TV";
+			productReference = 9398B32A2CF0B01900410582 /* Channel Lab TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9398B3392CF0B01A00410582 /* Channel Lab TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9398B3512CF0B01A00410582 /* Build configuration list for PBXNativeTarget "Channel Lab TVTests" */;
+			buildPhases = (
+				9398B3362CF0B01A00410582 /* Sources */,
+				9398B3372CF0B01A00410582 /* Frameworks */,
+				9398B3382CF0B01A00410582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9398B33C2CF0B01A00410582 /* PBXTargetDependency */,
+			);
+			name = "Channel Lab TVTests";
+			productName = "Channel Lab TVTests";
+			productReference = 9398B33A2CF0B01A00410582 /* Channel Lab TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9398B3432CF0B01A00410582 /* Channel Lab TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9398B3542CF0B01A00410582 /* Build configuration list for PBXNativeTarget "Channel Lab TVUITests" */;
+			buildPhases = (
+				9398B3402CF0B01A00410582 /* Sources */,
+				9398B3412CF0B01A00410582 /* Frameworks */,
+				9398B3422CF0B01A00410582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9398B3462CF0B01A00410582 /* PBXTargetDependency */,
+			);
+			name = "Channel Lab TVUITests";
+			productName = "Channel Lab TVUITests";
+			productReference = 9398B3442CF0B01A00410582 /* Channel Lab TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9398B3222CF0B01900410582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					9398B3292CF0B01900410582 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					9398B3392CF0B01A00410582 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9398B3292CF0B01900410582;
+					};
+					9398B3432CF0B01A00410582 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9398B3292CF0B01900410582;
+					};
+				};
+			};
+			buildConfigurationList = 9398B3252CF0B01900410582 /* Build configuration list for PBXProject "Channel Lab TV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9398B3212CF0B01900410582;
+			packageReferences = (
+				93FA9D532CF2234B001C6EFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 9398B32B2CF0B01900410582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9398B3292CF0B01900410582 /* Channel Lab TV */,
+				9398B3392CF0B01A00410582 /* Channel Lab TVTests */,
+				9398B3432CF0B01A00410582 /* Channel Lab TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9398B3282CF0B01900410582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D915B82CF363DA00EB49B6 /* Channel-Lab-TV-Info.plist in Resources */,
+				9398B3322CF0B01A00410582 /* Assets.xcassets in Resources */,
+				93D22A492CF3703D00A40888 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398B3382CF0B01A00410582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398B3422CF0B01A00410582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9398B3262CF0B01900410582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FA9D6A2CF227AB001C6EFC /* ChannelCardView.swift in Sources */,
+				93FA9D6B2CF227AB001C6EFC /* Channel.swift in Sources */,
+				93D22A4D2CF3737A00A40888 /* ContentView.swift in Sources */,
+				93FA9D6C2CF227AB001C6EFC /* ChannelViewModel.swift in Sources */,
+				93FA9D6D2CF227AB001C6EFC /* FirebaseService.swift in Sources */,
+				93FA9D6E2CF227AB001C6EFC /* ChannelDetailView.swift in Sources */,
+				93D22A4B2CF3736900A40888 /* ChannelGridView.swift in Sources */,
+				93FA9D5D2CF2274A001C6EFC /* Channel_Lab_TVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398B3362CF0B01A00410582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398B33F2CF0B01A00410582 /* Channel_Lab_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398B3402CF0B01A00410582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398B34B2CF0B01A00410582 /* Channel_Lab_TVUITestsLaunchTests.swift in Sources */,
+				9398B3492CF0B01A00410582 /* Channel_Lab_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9398B33C2CF0B01A00410582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9398B3292CF0B01900410582 /* Channel Lab TV */;
+			targetProxy = 9398B33B2CF0B01A00410582 /* PBXContainerItemProxy */;
+		};
+		9398B3462CF0B01A00410582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9398B3292CF0B01900410582 /* Channel Lab TV */;
+			targetProxy = 9398B3452CF0B01A00410582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9398B34C2CF0B01A00410582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Debug;
+		};
+		9398B34D2CF0B01A00410582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9398B34F2CF0B01A00410582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Channel Lab TV/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Z26HLRJ65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Channel-Lab-TV-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Channel Lab TV";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.designoverhaul.Channel-Lab-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		9398B3502CF0B01A00410582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Channel Lab TV/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Z26HLRJ65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Channel-Lab-TV-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Channel Lab TV";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.designoverhaul.Channel-Lab-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		9398B3522CF0B01A00410582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z26HLRJ65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.designoverhaul.Channel-Lab-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Channel Lab TV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Channel Lab TV";
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Debug;
+		};
+		9398B3532CF0B01A00410582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z26HLRJ65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.designoverhaul.Channel-Lab-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Channel Lab TV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Channel Lab TV";
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Release;
+		};
+		9398B3552CF0B01A00410582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z26HLRJ65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.designoverhaul.Channel-Lab-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Channel Lab TV";
+			};
+			name = Debug;
+		};
+		9398B3562CF0B01A00410582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z26HLRJ65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.designoverhaul.Channel-Lab-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Channel Lab TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9398B3252CF0B01900410582 /* Build configuration list for PBXProject "Channel Lab TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398B34C2CF0B01A00410582 /* Debug */,
+				9398B34D2CF0B01A00410582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9398B34E2CF0B01A00410582 /* Build configuration list for PBXNativeTarget "Channel Lab TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398B34F2CF0B01A00410582 /* Debug */,
+				9398B3502CF0B01A00410582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9398B3512CF0B01A00410582 /* Build configuration list for PBXNativeTarget "Channel Lab TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398B3522CF0B01A00410582 /* Debug */,
+				9398B3532CF0B01A00410582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9398B3542CF0B01A00410582 /* Build configuration list for PBXNativeTarget "Channel Lab TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398B3552CF0B01A00410582 /* Debug */,
+				9398B3562CF0B01A00410582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93FA9D532CF2234B001C6EFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93D915B52CF2321B00EB49B6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93FA9D532CF2234B001C6EFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		93FA9D542CF2234B001C6EFC /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93FA9D532CF2234B001C6EFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		93FA9D562CF2234B001C6EFC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93FA9D532CF2234B001C6EFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9398B3222CF0B01900410582 /* Project object */;
+}
